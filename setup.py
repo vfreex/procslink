@@ -4,7 +4,7 @@ from setuptools import setup, find_packages, Extension, Command
 
 setup(
     name='procslink',
-    version='0.1.1',
+    version='0.1.2',
     description='ProcsLink provides API for cross-namespace inter-process communication (IPC) over netlink socket.',
     license='MIT',
     author='Rayson Zhu',
@@ -29,4 +29,7 @@ setup(
         'Operating System :: POSIX',
     ],
     keywords='ProcsLink IPC inter-process communication JSON-RPC',
+    install_requires=[
+        'future',
+        ],
 )
