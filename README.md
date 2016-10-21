@@ -9,6 +9,13 @@ communication.
 
 Currently, I have implemented a JSON-RPC interface.
 
+## Install from PyPI
+
+``` sh
+sudo pip install procslink
+```
+
+
 ## API Usage Demo
 
 ### Run JSON-RPC server
